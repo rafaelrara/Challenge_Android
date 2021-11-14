@@ -33,12 +33,18 @@ nav{
     width: 100vw;
     background-color: #063D16;
     text-align: left;
+    padding: 10px;
 }
 
 nav > a{
-    margin-right: 1%;
     text-decoration: none;
     color: white;
+    padding: 10px;
+}
+
+nav > a:hover{
+    background-color: #2FA866;
+    border-radius:5px;
 }
 
 main{
