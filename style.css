@@ -68,12 +68,14 @@ main h2{
     background-image: linear-gradient(to right,#83E1AD,white);
 }
 main{
-    padding: 1%;
-    min-width: 200px;
-    max-width: 800px;
-    margin: 10px auto -10px auto;
+    padding: 20px;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
     background-color: white;
-    box-shadow: -1px 1px 4px #00000096;
+    box-shadow: 0px 0px 10px #00000057;
+    border-radius: 0 0 10px 10px;
 }
 
 main > h1{
@@ -81,19 +83,25 @@ main > h1{
     color: var(--cor5);
 }
 
+main img{
+    width: 100%;
+}
+
+.pequena{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
 #video{
     background-color: #063D16;
-    padding: 1%;
     min-width: 200px;
     max-width: 800px;
-    margin: 10px auto -10px auto;
 }
 
 article{
-    padding: 1% 0 3% 0;
-    min-width: 200px;
-    max-width: 800px;
-    margin: 10px auto 10px auto;
+    min-width: 400px;
+    max-width: 1000px;
     background-color: white;  
     border-radius: 0 0 10px 10px;  
 }
@@ -105,14 +113,12 @@ aside{
 
 #titleAside{
     background-color: #2FA866;
-    padding: 1%;
     border-radius: 10px 10px 0 0;
 }
 
 ul{
     height: 120px;
     display:inline-block;
-    margin: 10px 0 20px 0;
 }
 
 li{
@@ -123,5 +129,4 @@ footer{
     background-color: var(--cor5);
     color: white;
     text-align: center;
-    margin:0;
 }
