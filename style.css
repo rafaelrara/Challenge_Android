@@ -33,32 +33,48 @@ body{
 }
 
 header{
-    background-image:linear-gradient(to bottom, var(--cor3), var(--cor4));
+    background-image:linear-gradient(to bottom, var(--cor3), var(--cor5));
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
 }
 
 header > h1{
     color: white;
     font-family: var(--fonte-destaque);
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.356);
 }
 
 header > p{
     color: white;
+    font-family: var(--fonte-padrao);
+    font-size: 1.2em;
+    max-width: 500px;
+    padding: 0 10px 0 10px;
+    margin: auto;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.356);
 }
 
 nav{
-    background-color: var(--cor4);
+    background-color: var(--cor5);
     text-align: left;
     padding: 10px;
+    box-shadow: 0 7px 9px #00000057;
+    font-weight: bold;
 }
 
 nav > a{
     text-decoration: none;
     color: white;
     padding: 10px;
+    transition-duration: .3s;
 }
 
 nav > a:hover{
-    background-color: #2FA866;
+    background-color: var(--cor3);
+    color: var(--cor5);
     border-radius:5px;
 }
 
