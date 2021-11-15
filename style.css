@@ -30,7 +30,6 @@ h2{
 }
 
 nav{
-    width: 100vw;
     background-color: #063D16;
     text-align: left;
     padding: 10px;
@@ -70,7 +69,7 @@ main > h1{
 }
 
 article{
-    padding: 1%;
+    padding: 1% 0 3% 0;
     min-width: 200px;
     max-width: 800px;
     margin: 10px auto 10px auto;
